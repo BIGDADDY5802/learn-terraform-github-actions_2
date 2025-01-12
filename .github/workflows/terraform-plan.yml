@@ -9,8 +9,8 @@ env:
   CONFIG_DIRECTORY: "./"
 jobs:
   terraform:
-    - name: "Terraform"
-      if: github.repository != 'hashicorp-education/Roboclownedme2'
+    - name: "Terraform"learn-terraform-github-actions
+      if: github.repository != 'hashicorp-education/learn-terraform-github-actions'
     - name: "Terraform Plan"
       runs-on: ubuntu-latest
       permissions:
